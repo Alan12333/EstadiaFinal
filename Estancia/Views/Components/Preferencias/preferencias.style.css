@@ -1,0 +1,26 @@
+.contentcard
+{
+    background: rgb(19, 63, 107);
+    height: 300px;
+    width: 40%;
+    transition: .36s all ease;
+}
+.contentcard:hover
+{
+    height: 310px;
+    width: 41%;
+    transition: .36s all ease;
+}
+.ale
+{width: 280px;
+    right: 0;
+    top: 20%;
+    position: absolute;
+    position: fixed;
+    background-color: transparent;
+    z-index:2;
+    transform: translateX(100%);
+    border-radius: 10px;
+    cursor:pointer;
+    color:white;
+}

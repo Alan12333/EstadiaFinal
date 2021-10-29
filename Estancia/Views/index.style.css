@@ -1,0 +1,80 @@
+.fondo{
+    background-image:url("http://estanciaupp.000webhostapp.com/Estancia/public/image/fondo_1.png");
+    background-size:cover;
+    background-attachment:fixed;
+}
+.fondo2{
+    background-image:url("http://estanciaupp.000webhostapp.com/Estancia/public/image/fondo-2.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+}
+.fondo3{
+    background-image:url("http://estanciaupp.000webhostapp.com/Estancia/public/image/fondo_3.png");
+    background-size:cover;
+    background-attachment:fixed;
+}
+.cont-80
+{
+    width: 90%;
+    padding:12px;;
+}
+.dis
+{
+    position: relative;
+    transition: all .35s ease;
+}
+.dis:hover{
+    -webkit-transition: all .35s ease;
+    transition: all .35s ease;
+    bottom: 12px;
+}
+.img-sprash
+{
+    width:100px;
+    height: 100px;
+}
+.miniline-yel{border-bottom: 3px solid rgb(255, 193, 7);width:150px;}
+.miniline-sil{border-bottom: 3px solid silver;width:150px;}
+.line-yel{border-bottom: 5px solid rgb(255, 193, 7);}
+.img-logo{width:100px; height:40px;}
+.button2{width:80px;  background:rgb(255, 193, 7);}
+.yellow{background:rgb(255, 193, 7);}
+.bkblas{background:rgb(18, 25, 33);}
+.miniimage{width:50px; height:50px;}
+.miniline{width:10%; border-bottom: 3px solid silver;}
+.yellows{color:rgb(255, 193, 7);}
+.img-completes
+{
+    width: 100%;
+    height: 350px;
+}
+.contenedor{
+    overflow:hidden;
+}
+.imagen-card{
+    width:100%;
+    height: 250px;
+}
+.contenedor:hover .imagen-card{-webkit-transform:scale(1.1);transform:scale(1.1); transition: .45s all;}
+
+.pur{color:purple}
+.button-ini{
+    width:100%;
+    border:2px solid purple;
+}
+.button-ini:hover{
+    background: purple;
+    color: white;
+    transition: .35s all;
+}
+.opac{
+    opacity: 0.5;
+}.line{width:75%; margin:auto; color:silver;}
+.icono{width:20px; height:20px;}
+.aviso
+{   
+    position: absolute;
+    right: 250px;
+    width: 400px;
+    padding: 12px;
+}

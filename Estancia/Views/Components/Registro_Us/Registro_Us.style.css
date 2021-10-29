@@ -1,0 +1,76 @@
+.ale
+{width: 280px;
+    right: 0;
+    top: 20%;
+    position: absolute;
+    position: fixed;
+    background-color: transparent;
+    z-index:2;
+    transform: translateX(100%);
+    border-radius: 10px;
+    cursor:pointer;
+    color:white;
+}
+.img-logo{width:100px; height:40px;}
+.fondo{
+    background-image:url("https://estanciaupp.000webhostapp.com/Estancia/public/image/fondo-2.jpg");
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.txtbox-4{
+    width: 90%;
+    padding: 12px;
+    border: none;
+    border-bottom: 2px solid silver;
+}
+.txtbox-4:focus{
+    outline: 0px;
+    transition: 1s all;
+    border-bottom: 2px solid #0474f5;
+}
+.backgrounds{
+    background: rgb(49,2,106);
+background: linear-gradient(90deg, rgba(49,2,106,1) 0%, rgba(133,2,42,1) 25%, rgba(217,0,92,1) 90%);
+}
+
+.in, select, span{ 
+	border: none; 
+	background: white;
+	box-sizing: border-box;
+	font-size: 20px;
+	line-height: 12px;
+	outline: none; 
+	padding: 0;
+	resize: none; 
+	width: 400px;
+}
+
+.fake_placeholder{ 
+	margin-bottom: 10px; 
+}
+
+/* el label emula el aspecto del input */
+.fake_placeholder label{
+	border: 2px solid silver;
+	display: inline-block;
+	padding: 10px;
+	position: relative;
+}
+
+.fake_placeholder span{
+	color: silver;
+	display: inline-block;
+	left: 2px;
+	padding: 5px;
+	position: absolute;
+	transition: 0.25s;
+	top: 9px;
+	width: auto;
+}
+
+.fake_placeholder span.reubicar{
+	color: rgb(204, 10, 84);
+	font-size: 20px;
+	top: -12px;
+}

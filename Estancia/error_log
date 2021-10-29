@@ -1,0 +1,8 @@
+[22-Oct-2021 12:50:43 America/Mexico_City] PHP Fatal error:  Uncaught Error: Call to undefined function LoadModal() in /home3/fronter6/public_html/Estancia/Views/Components/Preferencias/preferencias.index.php:6
+Stack trace:
+#0 /home3/fronter6/public_html/Estancia/controllers/Exercise_Controller.php(40): require_once()
+#1 /home3/fronter6/public_html/Estancia/routes.php(29): Ejercicios_Controller->Preferencias()
+#2 /home3/fronter6/public_html/Estancia/routes.php(60): Call('Preferencias', Object(Ejercicios_Controller))
+#3 /home3/fronter6/public_html/Estancia/index.php(29): require_once('/home3/fronter6...')
+#4 {main}
+  thrown in /home3/fronter6/public_html/Estancia/Views/Components/Preferencias/preferencias.index.php on line 6

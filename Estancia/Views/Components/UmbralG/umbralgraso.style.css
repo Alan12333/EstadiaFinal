@@ -1,0 +1,13 @@
+.contentcard
+{
+    background: rgb(19, 63, 107);
+    height: 300px;
+    width: 40%;
+    transition: .36s all ease;
+}
+.contentcard:hover
+{
+    height: 310px;
+    width: 41%;
+    transition: .36s all ease;
+}

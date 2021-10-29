@@ -1,0 +1,41 @@
+#datoshis {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #datoshis td, #datoshis th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #datoshis tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #datoshis tr:hover {background-color: #ddd;}
+  
+  #datoshis th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+.ale
+{
+    position: absolute;
+    left: 0;
+    margin-top: 15%;
+    width: 250px;
+    padding: 12px;
+    color: white;
+    text-align: center;
+    transform: translateX(-100%);
+}
+
+.scrolls
+{
+  overflow: scroll;
+  height: 100vh;
+}
+

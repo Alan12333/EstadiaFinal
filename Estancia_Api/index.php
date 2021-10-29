@@ -1,0 +1,20 @@
+<?php
+if(isset($_GET['action']))
+{
+    $rutas=explode("/",$_GET['action']);
+    $action=$rutas[0];
+    if($action=="Usuario")
+    {
+        include("Usuario/user.api.php");
+    }
+    elseif($action=="Prueba")
+    {
+        include("Pruebas/prueba.api.php");
+    }
+    elseif($action=="Umbral")
+    {
+        include("Umbral/umbral.api.php");
+    }
+}
+?>
+

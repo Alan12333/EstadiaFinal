@@ -1,0 +1,79 @@
+.barlocation
+{
+    margin-left: 5cm;
+    margin-top: 5cm;
+    transform: rotate(-90deg);
+}
+.hei-60
+{
+    height: 60vh;
+}
+
+.barlenght
+{
+    width: 11cm;
+}
+.cont-65b
+{
+    width: 65%;
+}
+.cont-50b
+{
+    width:50%;
+}
+
+.etiquetas-contenido
+{
+    width: 250px;
+    height: 11cm;
+    position: absolute;
+    margin-left: 15.7cm;
+    margin-top: 1.2cm;
+}
+.etiqueta5
+{
+    margin-top: 4.5cm;
+}
+.etiqueta4
+{
+    margin-top: 1.4cm;
+}
+.etiqueta3
+{
+    margin-top: 1.4cm;
+}
+.etiqueta2
+{
+    margin-top: 0.70cm;
+}
+.etiqueta1
+{
+    margin-top: 0.020cm;
+}
+
+.btn-float
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: absolute;
+    position: fixed;
+}
+.ale
+{width: 280px;
+    right: 0;
+    top: 20%;
+    position: absolute;
+    position: fixed;
+    background-color: transparent;
+    
+    transform: translateX(100%);
+    border-radius: 10px;
+    cursor:pointer;
+    color:white;
+}
+
+.modal-1
+{
+    z-index:10000;
+}
